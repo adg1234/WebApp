@@ -88,6 +88,7 @@ public class acat {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		//driver.findElement(By.xpath("//h1[text()='JUPITER COMMUNICATION']")).isDisplayed();
 		driver.quit();
+		
 	}
 
 }
